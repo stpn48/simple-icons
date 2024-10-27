@@ -1,0 +1,23 @@
+{
+  "name": "my-icon-pack",
+  "displayName": "My Icon Pack",
+  "description": "A custom icon pack for VS Code",
+  "version": "1.0.0",
+  "publisher": "stpn48",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/your-repository-name.git"
+  },
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "myIconTheme",
+        "label": "My Icon Theme",
+        "path": "./icon-theme.json"
+      }
+    ]
+  }
+}
